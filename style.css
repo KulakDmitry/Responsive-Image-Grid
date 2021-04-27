@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 2%;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+}
+
+.image-short {
+  height: 300px;
+  line-height: 300px;
+  margin: 2%;
+}
+
+.image-long {
+  height: 600px;
+  line-height: 600px;
+  margin: 2%;
+}
+
+.one {
+  background: url(https://picsum.photos/id/129/200/300) no-repeat;
+  background-size: cover;
+}
+
+.two {
+  background: url(https://picsum.photos/id/128/200/300) no-repeat;
+  background-size: cover;
+}
+
+.three {
+  background: url(https://picsum.photos/id/121/200/300) no-repeat;
+  background-size: cover;
+}
+
+.four {
+  background: url(https://picsum.photos/id/122/200/300) no-repeat;
+  background-size: cover;
+}
+
+.five {
+  background: url(https://picsum.photos/id/123/200/300) no-repeat;
+  background-size: cover;
+}
+
+.six {
+  background: url(https://picsum.photos/id/124/200/300) no-repeat;
+  background-size: cover;
+}
+
+.seven {
+  background: url(https://picsum.photos/id/125/200/300) no-repeat;
+  background-size: cover;
+}
+
+.eight {
+  background: url(https://picsum.photos/id/126/200/300) no-repeat;
+  background-size: cover;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: blueviolet;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
